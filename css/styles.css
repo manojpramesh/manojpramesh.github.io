@@ -1,0 +1,426 @@
+header {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar-header a.navbar-brand {
+    display: inline-block;
+    padding: 20px 0;
+    height: 80px;
+}
+
+.main-menu ul.navbar-nav li {
+    display: inline-block;
+}
+
+.main-menu ul.navbar-nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 29px 15px;
+    text-transform: uppercase;
+}
+
+.main-menu ul.navbar-nav li.active a:hover {
+    background: none;
+    color: #FFCC5C;
+}
+
+.main-menu ul.navbar-nav li.active a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #FFCC5C;
+    position: relative;
+}
+
+.main-menu ul.navbar-nav li a:hover {
+    color: #FFCC5C;
+}
+
+.navbar {
+    border: medium none;
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.main-menu ul.navbar-default .navbar-nav> .active> a,
+.navbar-default .navbar-nav> .active> a:hover,
+.navbar-default .navbar-nav> .active> a:focus {
+    background: none;
+    color: #FFCC5C;
+}
+
+.navbar-default .navbar-toggle {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    padding: 25px 0px;
+}
+
+.navbar-default .navbar-nav> li> a:hover,
+.navbar-default .navbar-nav> li> a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 30px;
+    height: 2px;
+}
+
+.header-bottom h1 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.header-bottom .cd-headline b {
+    color: #FFCC5C;
+    font-weight: 400;
+    margin: 0;
+}
+
+header .container {
+    display: table;
+    height: 100%;
+}
+
+header .row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.45);
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+
+.custom-btn:hover {
+    color: #fff;
+    border: 1px solid #FFCC5C;
+}
+
+.custom-btn {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    color: #333;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    padding: 12px 15px;
+    position: relative;
+    transition: all 0.4s ease 0s;
+    width: 150px;
+    z-index: 1;
+}
+
+.btn-2 {
+    margin-left: 30px;
+}
+
+.custom-btn::before {
+    background: #FFCC5C;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 0%;
+    opacity: 0;
+    transition: 0.4s
+}
+
+.custom-btn::after {
+    background: #FFCC5C;
+    content: "";
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 0%;
+    opacity: 0;
+    transition: 0.4s
+}
+
+.custom-btn:hover::before,
+.custom-btn:hover::after {
+    opacity: 1;
+    width: 50%;
+}
+
+.header-area {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+
+.header-area {
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    position: fixed !important;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.logo {
+    height: 40px;
+    padding: 20px 0;
+}
+
+.logo a {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.stick .navbar-header a.navbar-brand {
+    display: inline-block;
+    padding: 10px 0;
+    height: 50px;
+}
+
+.stick .main-menu ul.nav> li> a {
+    color: #333;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 20px 15px;
+}
+
+.stick .main-menu ul.nav> li> a:hover {
+    color: #FFCC5C;
+}
+
+.stick .main-menu ul.navbar-nav li.active a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #FFCC5C;
+    position: relative;
+}
+
+.stick .mainmenu ul#nav>li:hover>a,
+.stick .mainmenu ul#nav li .mega-menu,
+.stick .mainmenu ul#nav li ul.sub-menu {
+    background-color: #f5f5f5;
+    color: #333;
+    outline: medium none;
+}
+
+.stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover,
+.mainmenu ul#nav li .mega-menu span>a:hover,
+.stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
+    color: #333;
+}
+
+.stick .logo {
+    height: 20px;
+}
+
+.stick .logo a {
+    margin-top: 0px
+}
+
+.header-area.stick {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 2px solid #FFCC5C;
+}
+
+.stick .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFCC5C;
+    width: 30px;
+    height: 2px;
+}
+
+.stick .navbar-default .navbar-toggle {
+    padding: 10px 0px;
+}
+
+.section-head {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.section-head h3 {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    line-height: 22px;
+}
+
+.section-head h3::before {
+    background: #FFCC5C none repeat scroll 0 0;
+    bottom: -13px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 110%;
+    z-index: -1;
+}
+
+.section-head h3::after {
+    background: #333 none repeat scroll 0 0;
+    bottom: -13px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 55%;
+    z-index: -1;
+}
+
+.single-about a.about-icon {
+    color: #333;
+    display: inline-block;
+    font-size: 50px;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 20px;
+}
+
+.single-about:hover .about-icon {
+    color: #FFCC5C;
+    transform: scale(1.1);
+}
+
+.single-about h4 {
+    color: #444;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.single-about p {
+    color: #333;
+    font-size: 14px;
+}
+
+.second-row {
+    margin-bottom: 20px;
+}
+
+.second-about {
+    margin-bottom: 60px;
+}
+
+.self-text ul li {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    color: #333;
+}
+
+.self-text ul li::before {
+    border: 1px solid #333;
+    content: "";
+    font-family: fontawesome;
+    height: 12px;
+    left: 0;
+    line-height: 9px;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 12px;
+}
+
+.about-self p {
+    margin-bottom: 20px;
+}
+
+.download-cv a:hover {
+    background: #FFCC5C;
+}
+
+.download-cv a {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin: 28px 0 0px;
+    padding: 10px 30px;
+    transition: all 0.4s ease 0s;
+}
+
+.intro-head {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.intro-head::before {
+    background: #FFCC5C none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+}
+
+.intro-head::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    bottom: -15px;
+    width: 50%;
+}
+
+
+.add-area {
+  background: url(../img/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.add-text {
+  padding: 80px 0px;
+  display: block;
+  overflow: hidden;
+}
+
+.add-content h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 0;
+  line-height: 64px;
+}
+
+.add-btn {
+  background: #333 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 26px;
+  letter-spacing: 0;
+  margin-top: 0;
+  padding: 16px 10px;
+  text-transform: capitalize;
+  width: 210px;
+  line-height: 30px;
+}
