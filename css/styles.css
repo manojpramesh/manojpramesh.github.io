@@ -26,17 +26,17 @@ header {
 
 .main-menu ul.navbar-nav li.active a:hover {
     background: none;
-    color: #FFCC5C;
+    color: #f37735;
 }
 
 .main-menu ul.navbar-nav li.active a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #FFCC5C;
+    color: #f37735;
     position: relative;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-    color: #FFCC5C;
+    color: #f37735;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ header {
 .navbar-default .navbar-nav> .active> a:hover,
 .navbar-default .navbar-nav> .active> a:focus {
     background: none;
-    color: #FFCC5C;
+    color: #f37735;
 }
 
 .navbar-default .navbar-toggle {
@@ -87,7 +87,7 @@ header {
 }
 
 .header-bottom .cd-headline b {
-    color: #FFCC5C;
+    color: #f37735;
     font-weight: 400;
     margin: 0;
 }
@@ -113,7 +113,7 @@ header .row {
 
 .custom-btn:hover {
     color: #fff;
-    border: 1px solid #FFCC5C;
+    border: 1px solid #f37735;
 }
 
 .custom-btn {
@@ -135,7 +135,7 @@ header .row {
 }
 
 .custom-btn::before {
-    background: #FFCC5C;
+    background: #f37735;
     content: "";
     height: 100%;
     left: 0;
@@ -148,7 +148,7 @@ header .row {
 }
 
 .custom-btn::after {
-    background: #FFCC5C;
+    background: #f37735;
     content: "";
     height: 100%;
     right: 0;
@@ -204,12 +204,12 @@ header .row {
 }
 
 .stick .main-menu ul.nav> li> a:hover {
-    color: #FFCC5C;
+    color: #f37735;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #FFCC5C;
+    color: #f37735;
     position: relative;
 }
 
@@ -237,11 +237,11 @@ header .row {
 
 .header-area.stick {
     background: #fff none repeat scroll 0 0;
-    border-bottom: 2px solid #FFCC5C;
+    border-bottom: 2px solid #f37735;
 }
 
 .stick .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFCC5C;
+    background-color: #f37735;
     width: 30px;
     height: 2px;
 }
@@ -268,7 +268,7 @@ header .row {
 }
 
 .section-head h3::before {
-    background: #FFCC5C none repeat scroll 0 0;
+    background: #f37735 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 3px;
@@ -298,7 +298,7 @@ header .row {
 }
 
 .single-about:hover .about-icon {
-    color: #FFCC5C;
+    color: #f37735;
     transform: scale(1.1);
 }
 
@@ -347,7 +347,7 @@ header .row {
 }
 
 .download-cv a:hover {
-    background: #FFCC5C;
+    background: #f37735;
 }
 
 .download-cv a {
@@ -369,7 +369,7 @@ header .row {
 }
 
 .intro-head::before {
-    background: #FFCC5C none repeat scroll 0 0;
+    background: #f37735 none repeat scroll 0 0;
     content: "";
     height: 2px;
     left: 0;
@@ -424,3 +424,134 @@ header .row {
   width: 210px;
   line-height: 30px;
 }
+
+.about-area{
+    margin-top: 30px;
+}
+
+
+
+.skills-idea h5 {
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.skills-idea ul li a {
+  color: #444;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.skills-idea ul li a i {
+  border: 1px solid #444;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-align: center;
+  width: 30px;
+}
+
+.skills-idea ul li {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.skill-progress {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.progress {
+  background-color: #f5f5f5;
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  height: 8px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.web-per {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 10px;
+  height: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 2%;
+  text-align: center;
+  top: 0;
+  width: 37px;
+}
+
+.web-per::after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid #333;
+  bottom: -9px;
+  content: "";
+  left: 13px;
+  position: absolute;
+}
+
+.progress-bar {
+  background: #f37735 none repeat scroll 0 0;
+  line-height: 8px;
+}
+
+.bar-2 {
+  right: 7%;
+}
+
+.bar-3 {
+  right: 17%;
+}
+
+.bar-4 {
+  right: 27%;
+}
+
+.bar-5 {
+  right: 12%;
+}
+
+.skill-edu h4 {
+  margin-bottom: 40px;
+}
+
+.edu-result h5 {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 10px 8px 5px;
+  text-align: left;
+}
+
+.edu-result span {
+  background: #333 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 10px 0 0;
+}
+
+.edu-result h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.last-result> p {
+  margin-bottom: 0;
+}
+
+.edu-result {
+  margin-bottom: 25px;
+}
+
+.last-result {
+  margin-bottom: 0;
+}
+
