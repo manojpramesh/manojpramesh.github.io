@@ -425,6 +425,10 @@
 
 /* Education Timeline end */
 
+.area-margin{
+    margin: 0 0 20px 0;
+}
+
 header {
     background-image: url(../img/banner-bg.jpg);
     background-repeat: no-repeat;
@@ -591,6 +595,11 @@ header .row {
 .custom-btn:hover::after {
     opacity: 1;
     width: 50%;
+}
+
+.custom-btn:hover{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header-area {
@@ -833,8 +842,8 @@ header .row {
 .add-content h2 {
     color: #fff;
     font-size: 40px;
-    margin-bottom: 0;
     line-height: 64px;
+    margin: 0;
 }
 
 .add-btn {
